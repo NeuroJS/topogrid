@@ -1,3 +1,5 @@
+var topogrid = require('topogrid')
+
 // x coordinates of the data
 var pos_x = [1,5,10];
 
@@ -11,4 +13,4 @@ var data = [1,10,1];
 // max of the grid and z is the number of points
 var grid_params = [0,10,11];
 
-zi = topogrid(pos_x,pos_y,data,grid_params);
+zi = topogrid.create(pos_x,pos_y,data,grid_params);
