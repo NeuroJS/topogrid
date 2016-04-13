@@ -1,6 +1,6 @@
 var math = require('mathjs')
 
-exports.topogrid = function(x, y, v, gp){
+exports.create = function(x, y, v, gp){
 
   var grid_params = _linspace(gp[0],gp[1],gp[2])
   var grid = _make2dGrid(grid_params,grid_params);
