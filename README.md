@@ -1,2 +1,2 @@
-# topoGrid
-javascript library for interpolation for topographic EEG plots
+# topogrid
+javascript library for interpolation of topographic EEG plots
