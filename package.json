@@ -1,0 +1,30 @@
+{
+  "name": "topogrid",
+  "version": "1.0.0",
+  "description": "javascript library for interpolation of topographic EEG plots",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeuroJS/topogrid.git"
+  },
+  "keywords": [
+    "EEG",
+    "topoplot"
+  ],
+  "author": "Andy Heusser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeuroJS/topogrid/issues"
+  },
+  "homepage": "https://github.com/NeuroJS/topogrid#readme",
+  "dependencies": {
+    "mathjs": "^3.1.4"
+  }
+}
