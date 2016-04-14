@@ -1,6 +1,6 @@
 {
   "name": "topogrid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "javascript library for interpolation of topographic EEG plots",
   "main": "index.js",
   "directories": {
