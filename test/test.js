@@ -1,4 +1,4 @@
-var topogrid = require('topogrid')
+var topogrid = require('../index')
 
 // x coordinates of the data
 var pos_x = [1,5,10];
@@ -14,3 +14,4 @@ var data = [1,10,1];
 var grid_params = [0,10,11];
 
 zi = topogrid.create(pos_x,pos_y,data,grid_params);
+console.log(zi)

@@ -25,7 +25,7 @@ exports.create = function(x, y, v, gp){
   var g1 = math.dotMultiply(d,d)
   var g2 = math.subtract(math.log(d),1)
   var g = math.dotMultiply(g1,g2)
-  g = math.add(g,math.eye(g.length))
+  g = math.add(g,math.eye(g['_data'].length))
 
   // compute weights
   var weights = math.lusolve(g,v)
@@ -81,6 +81,6 @@ exports.create = function(x, y, v, gp){
     for(i=n;i>=0;i--) { ret[i] = (i*b+(n-i)*a)/n; }
     return ret;
   };
-
+  
   return zi
 };
