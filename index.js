@@ -25,7 +25,7 @@ exports.create = function(x, y, v, gp){
   var g1 = math.dotMultiply(d,d)
   var g2 = math.subtract(math.log(d),1)
   var g = math.dotMultiply(g1,g2)
-  g = math.add(g,math.eye(x.length))
+  g = math.add(g,math.eye(g.length))
 
   // compute weights
   var weights = math.lusolve(g,v)
