@@ -1,5 +1,5 @@
 # topogrid
-a node module for interpolation of topographic EEG plots
+a node module for interpolating data for topographic EEG plots
 
 # to install
 `npm install topogrid`
